@@ -1,0 +1,143 @@
+/* змінні кольорів */
+:root{
+    /* head */
+    --web:#2196F3;
+    --head-studio:#000;
+    --hover-color:#2196F3;
+    --head-nav:#212121;
+    --head-contacts:#757575;
+    /* main */
+    --white-color:#fff;
+    --button:#2196F3;
+    --bacraund-color:#2F303A;
+    --main-titles:#212121;
+    --text-color:#757575;
+    --bottom-section-bg:#F5F4FA;
+    /* footer */
+    --foot-studio:#ffffff;
+    --foot-adress:#FFFFFF;
+}
+/* прибирання зайвих символів */
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+/* header */
+.head-studio{
+    color: var(--head-studio);
+    display: inline-block;
+}
+
+.head-web{
+    color: var(--web);
+    display: inline-block;
+}
+
+
+
+.header-nav{
+    color: var(--head-nav);
+}
+.header-nav:hover,
+.header-nav:focus{
+    color: var(--hover-color);
+}
+
+.header-contacts{
+    color: var(--head-contacts);
+}
+
+.header-contacts:hover,
+.header-contacts:focus{
+    color: var(--hover-color);
+}
+
+/* main */
+.main{
+
+}
+
+.bg{
+    background-color: var(--bacraund-color);
+    width: 1600px;
+    height: 600px;
+}
+
+.main-text{color: var(--white-color);}
+
+.btn{
+    color: var(--white-color);
+    background-color: var(--button);
+}
+
+.advantages{
+    display: inline-block;
+    height: 98px;
+    width: 270px;
+}
+
+.pryoryty{
+    color: var(--main-titles);
+}
+
+.text{
+    color: var(--text-color);
+}
+
+.name-section{
+    color: var(--main-titles);
+}
+
+.card{
+    display: inline-block;
+}
+
+.our-worck{
+
+}
+
+.section-bg{
+    background-color: var(--bottom-section-bg);
+}
+
+.card-our-team{
+    background-color: var(--white-color);
+    display: inline-block;
+}
+
+.team{
+    width: 270px;
+    height: 260px;
+}
+
+.name{
+    color: var(--main-titles);
+}
+
+.profesion{
+    color: var(--text-color);
+}
+
+/* footer */
+.footer{
+    background-color: var(--bacraund-color);
+}
+
+.foot-studio{
+    color: var(--foot-studio);
+}
+
+.foot-web{
+    color: var(--web);
+}
+
+.geo{
+    color: var(--foot-adress);
+}
+
+.foot-contacts{
+    color: var(--foot-adress);
+}

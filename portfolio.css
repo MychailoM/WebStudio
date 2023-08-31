@@ -1,0 +1,18 @@
+/* змінні */
+:root{
+    /* head */
+    --head-web:#2196F3;
+    --head-studio:#000;
+    --hover-color:#2196F3;
+    --head-nav:#212121;
+    --head-contacts:#757575;
+    /* main */
+}
+/* прибирання зайвих символів */
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
