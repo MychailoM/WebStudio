@@ -1,12 +1,20 @@
 /* змінні */
 :root{
     /* head */
-    --head-web:#2196F3;
+    --web:#2196F3;
     --head-studio:#000;
     --hover-color:#2196F3;
     --head-nav:#212121;
     --head-contacts:#757575;
     /* main */
+    --filtr-coolor:#F5F4FA;
+    --main-text:#212121;
+    --tex-color:#757575;
+    --card-backgraund-color:#EEEEEE;
+    /* foot */
+    --foot-studio:#ffffff;
+    --foot-adress:#FFFFFF;
+    --foot-bg:#2F303A;
 }
 /* прибирання зайвих символів */
 ul{
@@ -15,4 +23,95 @@ ul{
 
 a{
     text-decoration: none;
+}
+
+/* основний код */
+
+/* head */
+.head-studio{
+    color: var(--head-studio);
+    display: inline-block;
+}
+
+.head-web{
+    color: var(--web);
+    display: inline-block;
+}
+
+.navigation{
+    display: inline-block;
+}
+
+
+
+.header-nav{
+    color: var(--head-nav);
+}
+.header-nav:hover,
+.header-nav:focus{
+    color: var(--hover-color);
+}
+
+.header-contacts{
+    color: var(--head-contacts);
+}
+
+.header-contacts:hover,
+.header-contacts:focus{
+    color: var(--hover-color);
+}
+/* main */
+.main-filter{
+    background-color: var(--filtr-coolor);
+}
+
+.main-filter:hover{
+    background-color: var(--hover-color);
+    color: var(--foot-adress);
+}
+
+.main-card{
+    display: inline-block;
+    border: solid 1px var(--card-backgraund-color);
+}
+
+.filter{
+    display: inline-block;
+}
+
+.card{
+    
+}
+
+.card-photo{
+
+}
+
+.card-name{
+    color: var(--main-text);
+}
+
+.card-type{
+    color: var(--tex-color);
+}
+
+/* foot */
+footer{
+    background-color: var(--foot-bg);
+}
+
+.sitename{
+    color: var(--foot-studio);
+}
+
+.SiteName{
+    color: var(--web);
+}
+
+.geo{
+    color: var(--foot-adress);
+}
+
+.contacts{
+    color: var(--foot-adress);
 }
