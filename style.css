@@ -17,6 +17,10 @@
     --foot-studio:#ffffff;
     --foot-adress:#FFFFFF;
 }
+
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
 /* прибирання зайвих символів */
 ul{
     list-style: none;

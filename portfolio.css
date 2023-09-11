@@ -16,6 +16,10 @@
     --foot-adress:#FFFFFF;
     --foot-bg:#2F303A;
 }
+
+/* font-family: 'Roboto', sans-serif;
+   font-family: 'Ubuntu', sans-serif; */
+
 /* прибирання зайвих символів */
 ul{
     list-style: none;
