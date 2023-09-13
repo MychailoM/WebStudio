@@ -19,7 +19,7 @@
 }
 
 /* font-family: 'Roboto', sans-serif;
-font-family: 'Ubuntu', sans-serif; */
+font-family: 'Raleway', sans-serif; */
 
 /* прибирання зайвих символів */
 ul{
@@ -33,30 +33,42 @@ a{
 .head-studio{
     color: var(--head-studio);
     display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    
 }
 
 .head-web{
     color: var(--web);
     display: inline-block;
+    
+   
 }
 
 
 
 .header-nav{
     color: var(--head-nav);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 .header-nav:hover,
 .header-nav:focus{
     color: var(--hover-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 
 .header-contacts{
     color: var(--head-contacts);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 
 .header-contacts:hover,
 .header-contacts:focus{
     color: var(--hover-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 
 /* main */
@@ -70,11 +82,17 @@ a{
     height: 600px;
 }
 
-.main-text{color: var(--white-color);}
+.main-text{
+    color: var(--white-color);
+font-family: 'Roboto', sans-serif;
+font-weight: 900;
+}
 
 .btn{
     color: var(--white-color);
     background-color: var(--button);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }
 
 .advantages{
@@ -85,14 +103,20 @@ a{
 
 .pryoryty{
     color: var(--main-titles);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }
 
 .text{
     color: var(--text-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 
 .name-section{
     color: var(--main-titles);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }
 
 .card{
@@ -119,10 +143,14 @@ a{
 
 .name{
     color: var(--main-titles);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 
 .profesion{
     color: var(--text-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 
 /* footer */
@@ -132,6 +160,8 @@ a{
 
 .foot-studio{
     color: var(--foot-studio);
+    font-family: Raleway;
+    font-weight: 700;
 }
 
 .foot-web{
@@ -140,8 +170,12 @@ a{
 
 .geo{
     color: var(--foot-adress);
+    font-family: Roboto;
+    font-weight: 400;
 }
 
 .foot-contacts{
     color: var(--foot-adress);
+    font-family: Roboto;
+    font-weight: 400;
 }

@@ -18,7 +18,7 @@
 }
 
 /* font-family: 'Roboto', sans-serif;
-   font-family: 'Ubuntu', sans-serif; */
+   font-family: 'Raleway', sans-serif; */
 
 /* прибирання зайвих символів */
 ul{
@@ -35,6 +35,8 @@ a{
 .head-studio{
     color: var(--head-studio);
     display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
 }
 
 .head-web{
@@ -50,28 +52,40 @@ a{
 
 .header-nav{
     color: var(--head-nav);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 .header-nav:hover,
 .header-nav:focus{
-    color: var(--hover-color);
+    color: var(--hover-color); 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 
 .header-contacts{
     color: var(--head-contacts);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 
 .header-contacts:hover,
 .header-contacts:focus{
     color: var(--hover-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 /* main */
 .main-filter{
     background-color: var(--filtr-coolor);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 
 .main-filter:hover{
     background-color: var(--hover-color);
     color: var(--foot-adress);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 
 .main-card{
@@ -93,10 +107,14 @@ a{
 
 .card-name{
     color: var(--main-text);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }
 
 .card-type{
     color: var(--tex-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 
 /* foot */
@@ -106,16 +124,23 @@ footer{
 
 .sitename{
     color: var(--foot-studio);
+    
 }
 
 .SiteName{
     color: var(--web);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
 }
 
 .geo{
     color: var(--foot-adress);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 
 .contacts{
     color: var(--foot-adress);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
