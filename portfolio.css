@@ -29,6 +29,10 @@ a{
     text-decoration: none;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 /* основний код */
 
 /* head */
@@ -42,6 +46,7 @@ a{
 .head-web{
     color: var(--web);
     display: inline-block;
+    font-family: 'Raleway', sans-serif;
 }
 
 .navigation{
