@@ -1,180 +1,171 @@
 /* змінні кольорів */
-:root{
+:root {
     /* head */
-    --web:#2196F3;
-    --head-studio:#000;
-    --hover-color:#2196F3;
-    --head-nav:#212121;
-    --head-contacts:#757575;
+    --web: #2196F3;
+    --head-studio: #000;
+    --hover-color: #2196F3;
+    --head-nav: #212121;
+    --head-contacts: #757575;
     /* main */
-    --white-color:#fff;
-    --button:#2196F3;
-    --bacraund-color:#2F303A;
-    --main-titles:#212121;
-    --text-color:#757575;
-    --bottom-section-bg:#F5F4FA;
+    --white-color: #fff;
+    --button: #2196F3;
+    --bacraund-color: #2F303A;
+    --main-titles: #212121;
+    --text-color: #757575;
+    --bottom-section-bg: #F5F4FA;
     /* footer */
-    --foot-studio:#ffffff;
-    --foot-adress:#FFFFFF;
+    --foot-studio: #ffffff;
+    --foot-adress: #FFFFFF;
 }
 
 /* font-family: 'Roboto', sans-serif;
 font-family: 'Raleway', sans-serif; */
 
 /* прибирання зайвих символів */
-ul{
+ul {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 /* header */
-.head-studio{
+.head-studio {
     color: var(--head-studio);
     display: inline-block;
     font-family: 'Raleway', sans-serif;
-    
+
 }
 
-.head-web{
+.head-web {
     color: var(--web);
     display: inline-block;
-    
-   
+    font-family: 'Raleway', sans-serif;
+
 }
 
 
 
-.header-nav{
+.header-nav {
     color: var(--head-nav);
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-}
-.header-nav:hover,
-.header-nav:focus{
-    color: var(--hover-color);
-    font-family: 'Roboto', sans-serif;
     font-weight: 500;
 }
 
-.header-contacts{
+.header-nav:hover,
+.header-nav:focus {
+    color: var(--hover-color);
+    font-weight: 500;
+}
+
+.header-contacts {
     color: var(--head-contacts);
-    font-family: 'Roboto', sans-serif;
     font-weight: 500;
 }
 
 .header-contacts:hover,
-.header-contacts:focus{
+.header-contacts:focus {
     color: var(--hover-color);
-    font-family: 'Roboto', sans-serif;
     font-weight: 500;
 }
 
 /* main */
-.main{
+.main {}
 
-}
-
-.bg{
+.bg {
     background-color: var(--bacraund-color);
     width: 1600px;
     height: 600px;
 }
 
-.main-text{
+.main-text {
     color: var(--white-color);
-font-family: 'Roboto', sans-serif;
-font-weight: 900;
+    font-weight: 900;
 }
 
-.btn{
+.btn {
     color: var(--white-color);
     background-color: var(--button);
-    font-family: 'Roboto', sans-serif;
     font-weight: 700;
 }
 
-.advantages{
+.advantages {
     display: inline-block;
     height: 98px;
     width: 270px;
 }
 
-.pryoryty{
+.pryoryty {
     color: var(--main-titles);
-    font-family: 'Roboto', sans-serif;
     font-weight: 700;
 }
 
-.text{
+.text {
     color: var(--text-color);
-    font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
 
-.name-section{
+.name-section {
     color: var(--main-titles);
-    font-family: 'Roboto', sans-serif;
     font-weight: 700;
 }
 
-.card{
+.card {
     display: inline-block;
 }
 
-.our-worck{
+.our-worck {}
 
-}
-
-.section-bg{
+.section-bg {
     background-color: var(--bottom-section-bg);
 }
 
-.card-our-team{
+.card-our-team {
     background-color: var(--white-color);
     display: inline-block;
 }
 
-.team{
+.team {
     width: 270px;
     height: 260px;
 }
 
-.name{
+.name {
     color: var(--main-titles);
-    font-family: 'Roboto', sans-serif;
     font-weight: 500;
 }
 
-.profesion{
+.profesion {
     color: var(--text-color);
-    font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
 
 /* footer */
-.footer{
+.footer {
     background-color: var(--bacraund-color);
 }
 
-.foot-studio{
+.foot-studio {
     color: var(--foot-studio);
     font-family: Raleway;
     font-weight: 700;
 }
 
-.foot-web{
+.foot-web {
     color: var(--web);
 }
 
-.geo{
+.geo {
     color: var(--foot-adress);
     font-family: Roboto;
     font-weight: 400;
 }
 
-.foot-contacts{
+.foot-contacts {
     color: var(--foot-adress);
     font-family: Roboto;
     font-weight: 400;
