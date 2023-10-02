@@ -31,7 +31,9 @@ a {
 
 body {
     font-family: 'Roboto', sans-serif;
+    box-sizing: content-box;
 }
+
 
 /* основний код */
 
