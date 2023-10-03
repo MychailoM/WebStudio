@@ -21,18 +21,15 @@
 /* font-family: 'Roboto', sans-serif;
 font-family: 'Raleway', sans-serif; */
 
-/* прибирання зайвих символів */
-ul {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-}
-
 body {
     font-family: 'Roboto', sans-serif;
     box-sizing: content-box;
+}
+
+.container{
+    width: 1630px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 /* header */
