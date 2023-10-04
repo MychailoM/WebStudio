@@ -35,19 +35,25 @@ body {
 /* header */
 .head-studio {
     color: var(--head-studio);
-    display: inline-block;
     font-family: 'Raleway', sans-serif;
-
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 215px;
+    margin-right: 95px;
 }
 
 .head-web {
     color: var(--web);
-    display: inline-block;
     font-family: 'Raleway', sans-serif;
 
 }
 
-
+.navigation{
+    margin-bottom: 32px;
+    margin-top: 32px;
+    margin-right: 50px;
+}
 
 .header-nav {
     color: var(--head-nav);
@@ -65,8 +71,17 @@ body {
     font-weight: 500;
 }
 
+.header-contacts-email{
+    color: var(--head-contacts);
+    font-weight: 500;
+    margin-left: 345px;
+    
+}
+
 .header-contacts:hover,
-.header-contacts:focus {
+.header-contacts:focus ,
+.header-contacts-email:hover,
+.header-contacts-email:focus{
     color: var(--hover-color);
     font-weight: 500;
 }
@@ -92,7 +107,7 @@ body {
 }
 
 .advantages {
-    display: inline-block;
+    
     height: 98px;
     width: 270px;
 }
@@ -113,7 +128,7 @@ body {
 }
 
 .card {
-    display: inline-block;
+    
 }
 
 .our-worck {}
@@ -124,7 +139,7 @@ body {
 
 .card-our-team {
     background-color: var(--white-color);
-    display: inline-block;
+    
 }
 
 .team {
