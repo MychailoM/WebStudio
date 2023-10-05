@@ -23,11 +23,11 @@ font-family: 'Raleway', sans-serif; */
 
 body {
     font-family: 'Roboto', sans-serif;
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
 
 .container{
-    width: 1630px;
+    width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -37,44 +37,42 @@ body {
     color: var(--head-studio);
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    margin-left: 215px;
-    margin-right: 95px;
+    font-size: 26px;
 }
 
 .head-web {
     color: var(--web);
     font-family: 'Raleway', sans-serif;
-
+    font-size: 26px;
 }
 
 .navigation{
-    margin-bottom: 32px;
-    margin-top: 32px;
-    margin-right: 50px;
+
 }
 
 .header-nav {
     color: var(--head-nav);
     font-weight: 500;
+    font-size: 14px;
 }
 
 .header-nav:hover,
 .header-nav:focus {
     color: var(--hover-color);
     font-weight: 500;
+    font-size: 14px;
 }
 
-.header-contacts {
+.header-contacts{
     color: var(--head-contacts);
     font-weight: 500;
+    font-size: 14px;
 }
 
-.header-contacts-email{
+.header-contacts{
     color: var(--head-contacts);
     font-weight: 500;
-    margin-left: 345px;
+    font-size: 14px;
     
 }
 
@@ -86,100 +84,191 @@ body {
     font-weight: 500;
 }
 
-/* main */
+/* studio-main */
 .main {}
 
-.bg {
+.hero {
     background-color: var(--bacraund-color);
-    width: 1600px;
-    height: 600px;
+    padding-bottom: 200px;
+    padding-top: 200px;
 }
 
-.main-text {
+.hero-title{
     color: var(--white-color);
+    font-size: 44px;
     font-weight: 900;
+    text-align: center;
+    line-height: 136%;
+    text-transform: uppercase;
+    margin-bottom: 30px;
 }
 
-.btn {
+.hero-wrap{
+    display: flex;
+    justify-content: center;
+}
+
+.hero-btn{
     color: var(--white-color);
     background-color: var(--button);
     font-weight: 700;
+    font-size: 16px;
+    padding: 10px 32px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
-.advantages {
-    
-    height: 98px;
-    width: 270px;
+.benefits{
+    padding-top: 95px;
 }
 
-.pryoryty {
+.benefits-card {
+
+}
+
+.benefits-title{
     color: var(--main-titles);
     font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+
 }
 
-.text {
+.benefits-text{
     color: var(--text-color);
     font-weight: 400;
+    font-size: 14px;
 }
 
 .name-section {
     color: var(--main-titles);
     font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 50px;
+    text-align: center;
 }
 
-.card {
+.work{
+    padding-top: 118px;
+    padding-bottom: 94px;
+}
+
+.work-card{
     
 }
 
-.our-worck {}
+.work-img{
+    width: 370px;
+    height: 294px;
+}
 
-.section-bg {
+.team{
     background-color: var(--bottom-section-bg);
+    padding-bottom: 94px;
+    padding-top: 94px;
 }
 
-.card-our-team {
-    background-color: var(--white-color);
+.team-card{
     
 }
 
-.team {
+.team-wrap{
+    background-color: var(--foot-adress);
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.team-img{
     width: 270px;
     height: 260px;
+    margin-bottom: 30px;
 }
 
-.name {
+.team-name{
     color: var(--main-titles);
     font-weight: 500;
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-align: center;
 }
 
 .profesion {
     color: var(--text-color);
+    font-weight: 400;
+    padding-bottom: 30px;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+/* portfolio main */
+.main-filter {
+    background-color: var(--filtr-coolor);
+    font-weight: 500;
+}
+
+.main-filter:hover {
+    background-color: var(--hover-color);
+    color: var(--foot-adress);
+    font-weight: 500;
+}
+
+.main-card {
+    display: inline-block;
+    border: solid 1px var(--card-backgraund-color);
+}
+
+.filter {
+    display: inline-block;
+}
+
+.card {}
+
+.card-photo {}
+
+.card-name {
+    color: var(--main-text);
+    font-weight: 700;
+}
+
+.card-type {
+    color: var(--tex-color);
     font-weight: 400;
 }
 
 /* footer */
 .footer {
     background-color: var(--bacraund-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .foot-studio {
     color: var(--foot-studio);
+    font-size: 26px;
     font-family: Raleway;
     font-weight: 700;
+    margin-bottom: 20px;
+
 }
 
 .foot-web {
     color: var(--web);
+    font-size: 26px;
 }
 
 .geo {
     color: var(--foot-adress);
     font-family: Roboto;
     font-weight: 400;
+    font-size: 14px;
 }
 
 .foot-contacts {
     color: var(--foot-adress);
     font-family: Roboto;
     font-weight: 400;
+    font-size: 14px;
 }

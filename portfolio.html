@@ -14,37 +14,38 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <!-- head -->
-    <header class="head">
-        <a href="index.html">
-            <h2 class="head-studio" lang="en"> 
-                <span class="head-web">Web</span>Studio</h2>
+    <header class="header">
+        <div class="container">
+
+        <a class="head-studio" href="index.html">
+            <span class="head-web">Web</span>Studio
         </a>
-        <nav>
+        <nav >
             <ul>
-                <li class="navigation"><a class="header-nav" href="index.html">Студія</a> </li>
+                <li class="navigation"> <a class="header-nav" href="index.html">Студія</a> </li>
                 <li class="navigation"><a class="header-nav" href="portfolio.html">Портфоліо</a></li>
                 <li class="navigation"><a class="header-nav" href="#">Контакти</a></li>
             </ul>
         </nav>
 
         <ul>
-            <li><a class="header-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="header-contacts" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <li class="header-contact"><a class="header-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="header-contact"><a class="header-contacts" href="tel:+38-096-111-11-11">+38 096 111 11 11</a></li>
         </ul>
-
+    </div>
     </header>
 
     <!-- main -->
 
     <main class="main">
-        <section>
+        <section class="project">
             <div class="container">
-            <div>
+            
                 <h1 hidden>Портфоліо</h1>
                 <ul>
                     <li class="filter"><button class="main-filter">Усі</button></li>
@@ -129,7 +130,7 @@
                             <h2 class="card-name">Growing Business</h2>
                             <p class="card-type"> Додаток</p>
                         </div>
-                    </div>
+                    
                     </li>
                 </ul>
             </div>
@@ -141,17 +142,19 @@
 
     <!--  -->
 
-    <footer>
+    <footer class="footer">
+        <div class="container">
         <a href="index.html">
-            <h2 lang="en" class="sitename"> <span class="SiteName">Web</span>Studio</h2>
+        <span class="foot-web">Web</span>Studio
         </a>
         <address>
             <a class="geo"
                 href="https://www.google.com/maps/place/%D0%B1%D1%83%D0%BB%D1%8C%D0%B2%D0%B0%D1%80+%D0%9B%D0%B5%D1%81%D1%96+%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D1%97%D0%B2,+02000/@50.4265841,30.5358109,17z/data=!3m1!4b1!4m6!3m5!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858!16s%2Fg%2F1tctq5jv?entry=ttu">
                 м. Київ, пр-т Лесі Українки, 26 </a>
         </address>
-        <a clas="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a clas="contacts" href="tel:+38-096-111-11-11">+38 096 111 11 11</a>
+        <a class="foot-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <a class="foot-contacts" href="tel:+38-096-111-11-11">+38 096 111 11 11</a>
+    </div>
     </footer>
 
 </body>
