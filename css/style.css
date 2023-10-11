@@ -33,6 +33,11 @@ body {
     padding: 0 15px;
 }
 
+.header-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
 /* header */
 
 .header{
@@ -53,8 +58,13 @@ body {
     font-size: 26px;
 }
 
-.navigation{
+.header-navigation-list{
+    display: flex;
+    
+}
 
+.navigation{
+    
 }
 
 .header-nav {
