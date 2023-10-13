@@ -35,7 +35,7 @@ body {
 
 .header-wrap{
     display: flex;
-    justify-content: space-between;
+    
 }
 
 /* header */
@@ -80,10 +80,9 @@ body {
     font-size: 14px;
 }
 
-.header-contacts{
-    color: var(--head-contacts);
-    font-weight: 500;
-    font-size: 14px;
+.header-contacts-list{
+    display: flex;
+    
 }
 
 .header-contacts{
@@ -92,6 +91,8 @@ body {
     font-size: 14px;
     
 }
+
+
 
 .header-contacts:hover,
 .header-contacts:focus ,
