@@ -20,21 +20,22 @@
 <body>
     <!-- head -->
     <header class="header">
-        <div class="container">
-
+        <div class="container header-wrap">
+            <div class="logo-wrap">
         <a class="head-studio" href="index.html">
             <span class="head-web">Web</span>Studio
         </a>
         <nav >
-            <ul>
+            <ul class="header-navigation-list">
                 <li class="navigation"> <a class="header-nav" href="index.html">Студія</a> </li>
                 <li class="navigation"><a class="header-nav" href="portfolio.html">Портфоліо</a></li>
                 <li class="navigation"><a class="header-nav" href="#">Контакти</a></li>
             </ul>
         </nav>
+    </div>
 
-        <ul>
-            <li class="header-contact"><a class="header-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <ul class="header-contacts-list">
+            <li class="header-contact email"><a class="header-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
             <li class="header-contact"><a class="header-contacts" href="tel:+38-096-111-11-11">+38 096 111 11 11</a></li>
         </ul>
     </div>
@@ -47,13 +48,15 @@
             <div class="container">
             
                 <h1 hidden>Портфоліо</h1>
-                <ul>
+                <div class="filter-wrap">
+                <ul class="filter-list">
                     <li class="filter"><button class="main-filter">Усі</button></li>
                     <li class="filter"><button class="main-filter">Веб-сайти</button></li>
                     <li class="filter"><button class="main-filter">Додатки</button></li>
                     <li class="filter"><button class="main-filter">Дизайн</button></li>
                     <li class="filter"><button class="main-filter">Маркетинг</button></li>
                 </ul>
+                </div>
                 <ul>
                     <li class="main-card">
                         <img class="card-photo" src="photo/технокряк.png" alt="кря">
@@ -151,9 +154,12 @@
             <a class="geo"
                 href="https://www.google.com/maps/place/%D0%B1%D1%83%D0%BB%D1%8C%D0%B2%D0%B0%D1%80+%D0%9B%D0%B5%D1%81%D1%96+%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D1%97%D0%B2,+02000/@50.4265841,30.5358109,17z/data=!3m1!4b1!4m6!3m5!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858!16s%2Fg%2F1tctq5jv?entry=ttu">
                 м. Київ, пр-т Лесі Українки, 26 </a>
+        
         </address>
-        <a class="foot-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a class="foot-contacts" href="tel:+38-096-111-11-11">+38 096 111 11 11</a>
+        <ul class="adress">
+            <li><a class="foot-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="foot-contacts" href="tel:+38-096-111-11-11">+38 096 111 11 11</a></li>
+        </ul>
     </div>
     </footer>
 
