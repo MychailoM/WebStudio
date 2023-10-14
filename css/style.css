@@ -28,6 +28,7 @@ body {
 }
 
 .container {
+    
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
@@ -44,6 +45,7 @@ body {
 .header {
     padding-bottom: 25px;
     padding-top: 25px;
+    
 }
 
 .logo-wrap {
@@ -105,9 +107,7 @@ body {
 
 
 .header-contacts:hover,
-.header-contacts:focus,
-.header-contacts-email:hover,
-.header-contacts-email:focus {
+.header-contacts:focus{
     color: var(--hover-color);
     font-weight: 500;
 }
