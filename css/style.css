@@ -259,30 +259,40 @@ body {
     font-weight: 500;
     border-radius: 4px;
     border: none;
-    padding: 6px 25px;
+    padding: 6px 22px;
     margin-bottom: 50px;
 }
 
 .main-filter:hover {
     background-color: var(--hover-color);
+    color: var(--foot-studio);
     font-weight: 500;
 }
 
 .main-card {
     border: 1px solid var(--border-color-portfolio);
-
-}
-
-.filter-wrap{
-
     
 }
 
-.filter-list{
+.filter-wrap{
+    width: 575px;
+    margin: 0 auto;    
+}
 
+.filter-list{
+    display: flex;
+    justify-content: space-between;
+    
 }
 
 .filter {}
+
+.project-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
 
 .card {}
 
