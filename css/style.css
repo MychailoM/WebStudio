@@ -276,7 +276,7 @@ body {
 
 .main-card {
     border: 1px solid var(--border-color-portfolio);
-    
+    width: 370px;
 }
 
 .filter-wrap{
@@ -296,7 +296,11 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    gap: 30px; 
+    /* display: flex;
+    flex-wrap: wrap;
     gap: 30px;
+    flex-basis:calc((100% - 60px) / 3); */
 }
 
 .card {}
