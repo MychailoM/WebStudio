@@ -166,13 +166,38 @@ body {
 
 }
 
+.benefits-card::before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 120px;
+    background-color: var(--bottom-section-bg);
+    border-radius: 4px;
+    background-image: url(../photo/antenna.png);
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.benefits-card:nth-child(2)::before{
+    background-image: url(../photo/clock.png);
+}
+
+.benefits-card:nth-child(3)::before {
+    background-image: url(../photo/diagram.png);
+}
+
+.benefits-card:nth-child(4)::before {
+    background-image: url(../photo/astronaut.png);
+}
+
 .benefits-title {
     color: var(--main-titles);
     font-weight: 700;
     margin-bottom: 10px;
     font-size: 14px;
     text-transform: uppercase;
-
+    margin-top: 30px;
 }
 
 .benefits-text {
