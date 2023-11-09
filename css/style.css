@@ -45,7 +45,7 @@ body {
 .header {
     padding-bottom: 25px;
     padding-top: 25px;
-    
+    border-bottom: 1px solid #ECECEC;
 }
 
 .logo-wrap {
@@ -173,22 +173,22 @@ body {
     height: 120px;
     background-color: var(--bottom-section-bg);
     border-radius: 4px;
-    background-image: url(../photo/antenna.png);
+    background-image: url(../photo/antenna.webp);
     background-size: 70px;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .benefits-card:nth-child(2)::before{
-    background-image: url(../photo/clock.png);
+    background-image: url(../photo/clock.webp);
 }
 
 .benefits-card:nth-child(3)::before {
-    background-image: url(../photo/diagram.png);
+    background-image: url(../photo/diagram.webp);
 }
 
 .benefits-card:nth-child(4)::before {
-    background-image: url(../photo/astronaut.png);
+    background-image: url(../photo/astronaut.webp);
 }
 
 .benefits-title {
@@ -293,15 +293,23 @@ body {
     margin-bottom: 50px;
 }
 
-.main-filter:hover {
+.main-filter:hover,
+.main-filter:focus {
     background-color: var(--hover-color);
     color: var(--foot-studio);
     font-weight: 500;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
 .main-card {
     border: 1px solid var(--border-color-portfolio);
     width: 370px;
+    
+}
+
+.main-card:hover,
+.main-card:focus{
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
 .filter-wrap{
