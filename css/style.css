@@ -117,6 +117,7 @@ body {
 
 .hero {
     background: url(../photo/Img.webp), lightgray 0px -147.517px / 100% 170.667%;
+    background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 200px;
     padding-top: 200px;
