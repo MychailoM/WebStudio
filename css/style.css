@@ -406,8 +406,7 @@ body {
 .regular-customers-list{
     display: flex;
     justify-content: space-between;
-    margin-left: 215px;
-        margin-right: 215px;
+    
 }
 
 .customers-element{
