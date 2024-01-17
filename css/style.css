@@ -67,19 +67,48 @@ body {
     font-size: 26px;
 }
 
+.nav-wrap{
+    display: flex;
+    flex-direction: column;
+}
+
 .header-navigation-list {
     width: 281px;
     display: flex;
     justify-content: space-between;
 }
 
-.navigation {}
+.navigation {
+    
+
+}
 
 .header-nav {
     color: var(--head-nav);
     font-weight: 500;
     font-size: 14px;
+    position: relative;
+    
 }
+
+.nav-line-studio,
+.nav-line-portfolio{
+    left: -2px;
+    position: relative;
+    top: 27px;
+    width: 47px;
+    height: 4px;
+    border-radius: 2px;
+        background: #2196F3;
+}
+
+.nav-line-portfolio{
+    width: 75px;
+}
+
+
+
+
 
 .header-nav:hover,
 .header-nav:focus {
@@ -367,7 +396,8 @@ body {
 .main-card {
     border: 1px solid var(--border-color-portfolio);
     width: 370px;
-
+    position: relative;
+    overflow: hidden;
 }
 
 .main-card:hover,
@@ -399,10 +429,13 @@ body {
     flex-basis:calc((100% - 60px) / 3); */
 }
 
-.card {}
+.card {
+    
+}
 
 .card-photo {
     margin-bottom: 20px;
+    
 }
 
 .card-name {
@@ -417,6 +450,30 @@ body {
     font-weight: 400;
     padding-bottom: 20px;
     text-align: center;
+}
+
+.sub-card-text{
+    
+    display: none;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    color: var(--foot-adress);
+    top: 0;
+    text-align: center;
+    background-color: rgba(33, 150, 243, 0.90);
+    font-family: Roboto;
+        font-size: 18px;
+        height: 294px;
+        font-weight: 400;
+        line-height: 155.556%;        
+        letter-spacing: 0.54px;
+}
+
+.main-card:hover .sub-card-text{
+    display: block;
+    display: flex;
+        align-items: center;
+    
 }
 
 .regular-customers {
