@@ -4,9 +4,12 @@
     --web: #2196F3;
     --head-studio: #000;
     --hover-color: #2196F3;
+    --after-hover-color: #2a71af;
     --head-nav: #212121;
     --head-contacts: #757575;
+    --header-border:#ECECEC;
     /* main */
+    --icon-bg:#AFB1B8;
     --white-color: #fff;
     --button: #2196F3;
     --bacraund-color: #2F303A;
@@ -48,7 +51,7 @@ body {
 .header {
     padding-bottom: 25px;
     padding-top: 25px;
-    border-bottom: 1px solid #ECECEC;
+    border-bottom: 1px solid var(--header-border);
 }
 
 .logo-wrap {
@@ -91,7 +94,12 @@ body {
     font-weight: 500;
     font-size: 14px;
     position: relative;
-    
+    transition-property: color;
+}
+
+.header-nav:hover{
+    transition-duration: 250ms;
+    color: var(--after-hover-color);
 }
 
 .header-nav.current::after{
@@ -104,26 +112,20 @@ body {
     border-radius: 4px;
     left: 0;
     bottom: -30px;
+    transition-property: background-color bottom width;
 }
 
-.nav-line-studio,
-.nav-line-portfolio{
-    left: -2px;
-    position: relative;
-    top: 27px;
-    width: 47px;
-    height: 4px;
-    border-radius: 2px;
-        background: #2196F3;
+.current:hover::after{
+    left: -5%;
 }
 
-.nav-line-portfolio{
-    width: 75px;
+.current:hover::after{
+    background-color: var(--after-hover-color);
+    bottom: -25px;
+    width: 110%;
+    
+    transition-duration: 250ms;
 }
-
-
-
-
 
 .header-nav:hover,
 .header-nav:focus {
@@ -138,14 +140,15 @@ body {
 
 }
 
+
+
 .header-contacts-list .header-contacts:hover {
     color: var(--button);
 }
 
 .header-contacts:hover .contact-icon {
     fill: var(--button);
-
-
+    transition-duration: 250ms;
 }
 
 .header-contacts {
@@ -153,18 +156,18 @@ body {
     font-weight: 500;
     font-size: 14px;
     margin-right: 10px;
+    transition-property: color;
 }
 
 .email {
     margin-right: 50px;
 }
 
-
-
 .header-contacts:hover,
 .header-contacts:focus {
     color: var(--hover-color);
-    font-weight: 500;
+    transition-duration: 250ms;
+    
 }
 
 /* studio-main */
@@ -211,7 +214,7 @@ body {
 
 .benefits {
     padding-top: 95px;
-    background-color: #fff;
+    background-color: var(--foot-adress);
 }
 
 .benefits-list {
@@ -360,18 +363,20 @@ body {
 }
 
 .social-link {
-    fill: #AFB1B8;
+    fill: var(--icon-bg);
     height: 44px;
     width: 44px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition-property: fill background-color;
 }
 
 .social-link:hover {
-    fill: #fff;
-    background-color: #2196F3;
+    transition-duration: 250ms;    
+    fill: var(--foot-adress);
+    background-color: var(--button);
 }
 
 
@@ -398,13 +403,14 @@ body {
     border: none;
     padding: 6px 22px;
     margin-bottom: 50px;
+    transition-property: background-color color box-shadow; 
 }
 
 .main-filter:hover,
 .main-filter:focus {
+    transition-duration: 250ms;
     background-color: var(--hover-color);
     color: var(--foot-studio);
-    font-weight: 500;
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 
@@ -413,10 +419,12 @@ body {
     width: 370px;
     position: relative;
     overflow: hidden;
+    transition-property: box-shadow;
 }
 
 .main-card:hover,
 .main-card:focus {
+    transition-duration: 250ms;
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
@@ -432,6 +440,8 @@ body {
 }
 
 .filter {}
+
+
 
 .project-list {
     display: flex;
@@ -486,10 +496,11 @@ body {
     
     padding: 63px 24px;
     opacity: 0;
-    
+    transition-property: opacity;
 }
 
 .main-card:hover .product-action{
+    transition-duration: 250ms;
     opacity: 1;
 }
 
@@ -516,11 +527,13 @@ body {
     border-radius: 4px;
     border: 1px solid var(--text-color);
     padding: 16px 32px;
+    transition-property: fill border-color;
 }
 
 .customers-icon:hover {
+    transition-duration: 250ms;
     fill: var(--button);
-    border-color: #2196F3;
+    border-color: var(--hover-color);
 }
 
 /* footer */
@@ -589,7 +602,7 @@ body {
 }
 
 .foot-social-link {
-    fill: #AFB1B8;
+    fill: var(--icon-bg);
     height: 44px;
     width: 44px;
     border-radius: 50%;
@@ -597,11 +610,13 @@ body {
     justify-content: center;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.10);
+    transition-property: fill background-color;
 }
 
 .foot-social-link:hover {
-    fill: #fff;
-    background-color: #2196F3;
+    transition-duration: 250ms;
+    fill: var(--foot-adress);
+    background-color: var(--hover-color);
 }
 
 .subscribe {}
